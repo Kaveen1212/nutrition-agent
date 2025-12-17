@@ -1,0 +1,18 @@
+[project]
+name = "food-qulity-checking-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.124.4",
+    "langchain>=1.2.0",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.4",
+    "langchain-tavily>=0.2.15",
+    "pillow>=12.0.0",
+    "python-multipart>=0.0.21",
+    "tavily-python>=0.7.16",
+    "uvicorn>=0.38.0",
+]
